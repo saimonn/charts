@@ -12,7 +12,7 @@ fi
 
 CHART=$1
 helm package $CHART -d docs
-helm repo index docs --url https://camptocamp.github.io/charts
+helm repo index docs --url https://saimonn.github.io/charts
 
 echo "Chart $CHART updated, you can now commit the diff:"
 echo "git add docs/"
